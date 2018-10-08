@@ -50,24 +50,21 @@ make test
 Five tests have been used for each of the four WDS solution methods, namely tests for each of: the continuity residuals, the energy residuals, the norm at the final iteration, the infinity norm of the difference between the users final flows and the results, and the infinity norm of the difference between the users final heads and the results.
 Please note that the results from these tests are highly dependent on the stopping tolerance selected by the user as any digits less significant than the stopping tolerance will be unreliable.
 
-## Versioning
+## Uninstalling WDSLib
+WDSLib does not rely on a formal uninstaller to uninstall the package. To uninstall the package, users only need to delete the main WDSLib directory.
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
+## How to use WDSLib
+The setup for WDSLib as a standalone application is straightforward. The user provides a human-readable configuration text file that specifies input and output filenames; the name of the solver; the desired output variables; and simulation parameters. The detailed description of the configuration file can be found in User's manual. Hydraulic simulation using WDSLib can be performed by using the following command:
+```
+./Netsolver config.txt
+```
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Mengning Qiu** , **Bradley Alexander** , **Sylvan Elhay** , **Angus R. Simpson** - *Initial work* -(https://github.com/a1184182)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU LESSER GENERAL PUBLIC LICENS - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-. 
