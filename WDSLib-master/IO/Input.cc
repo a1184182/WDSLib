@@ -32,8 +32,8 @@ int Input::setInput(string inputDirectory,string inputFilename){
     filename = (char *)malloc(file.size() + 1);
     memcpy(filename, file.c_str(), file.size() + 1);
 	inputFile=file;
-	RptFile="a.txt";
-	int err=ENopen(filename,"a.txt"," ");
+	RptFile="Rpt";
+	int err=ENopen(filename, "Rpt","");
 	free(filename);
 	return err;
 }
@@ -228,24 +228,26 @@ void Input::basicInfo(ostream& stream){
 //  calls:   
 //  called from: 
 //-------------------------------------------------------------------------
+	stream << "===================\n";
+	stream << "|Basic Information|\n";
+	stream << "===================\n";
 	#if defined(__linux__) || defined(__CYGWIN__)
 	char hostname[HOST_NAME_MAX];
 	char username[LOGIN_NAME_MAX];
 	gethostname(hostname, HOST_NAME_MAX);
 	getlogin_r(username, LOGIN_NAME_MAX);
+	stream << "Name=" << hostname << "," << username << endl;
 	#elif defined(__MACH__)
 	char hostname[20];
 	char username[20];
 	gethostname(hostname, 20);
 	getlogin_r(username, 20);
+	stream << "Name=" << hostname << "," << username << endl;
 	#elif defined(_WIN)
 	char* hostname=getenv("COMPUTERNAME");
 	char* username=getenv("USERNAME");
+	stream << "Name=" << hostname << "," << username << endl;
 	#endif
- 	stream<<"===================\n";
- 	stream<<"|Basic Information|\n";
- 	stream<<"===================\n";
- 	stream<<"Name="<<hostname<<","<<username<<endl;
  	time_t t=time(0);
  	struct tm* now=localtime(&t);
  	stream<<"Time: "<<asctime(now);

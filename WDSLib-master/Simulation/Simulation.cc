@@ -289,12 +289,26 @@ void Simulation::dispResult(Result *result){
 //  calls:   
 //  called from: 
 //-------------------------------------------------------------------------
-	string folder = inputFilename.substr(0, inputFilename.size()-4);
-	string resultPath="./"+folder+" Result";
+	string folder = inputFilename.substr(0, inputFilename.size() - 4);
+	string resultPath;
+	int SolverFlag = flag->getFlagvalue("SolverFlag");
+	bool FCPAFlag = flag->getFlagvalue("FCPAFlag");
+	folder = "./" + folder + " Result";
+	if (SolverFlag == 1)
+		resultPath = folder + "/GGA";
+	else if (SolverFlag == 2)
+		resultPath = folder + "/RCTM";
+	if (FCPAFlag == 1)
+		resultPath = resultPath + " FCPA";
 	struct stat info;
-	if( stat( resultPath.c_str(), &info ) != 0 )
+#if defined(__linux__) ||defined(__MACH__)
+	if (stat(resultPath.c_str(), &info) != 0)
 		mkdir(resultPath.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
-
+#elif defined(_WIN32) || defined(__CYGWIN__)
+	if (stat(resultPath.c_str(), &info) != 0)
+		CreateDirectory(folder.c_str(), NULL);
+	CreateDirectory(resultPath.c_str(), NULL);
+#endif
 	if(flag->getFlagvalue("BasicFlag")==1||flag->getFlagvalue("BasicFlag")==3){
 		input->basicInfo(cout);
 	}

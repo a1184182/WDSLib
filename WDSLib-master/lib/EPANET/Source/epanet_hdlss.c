@@ -2492,7 +2492,7 @@ int   openfiles(char *f1, char *f2, char *f3)
    else if ((RptFile = fopen(f2,"wt")) == NULL)
    {
       writecon(FMT06);
-      return(303);
+      return(0);
    }
 
    return(0);

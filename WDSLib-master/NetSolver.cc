@@ -38,7 +38,7 @@ using namespace std;
 		cout<<"Please run WDSLib by inputing the following command:"<<endl;
 		#if defined(__linux__) || defined(__CYGWIN__) ||defined(__MACH__)
 		cout<<"./Netsolver config.txt"<<endl;
-		#elif defined(_WIN)
+		#elif defined(_WIN32)
 		cout<<"Netsolver config.txt"<<endl;
 		#endif
 

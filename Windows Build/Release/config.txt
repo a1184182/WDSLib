@@ -1,0 +1,62 @@
+[InputFile]
+<directory> 		%REQUIRED INFORMATION the input file directory 
+../../WDSnetwork/
+<file>      		%REQUIRED INFORMATION the input file name
+hanoi.inp
+<end>       		%end of input file 
+%--------------------------------------------------%
+[Parameter]
+<maxIter>   		%maximum number of iteration
+50
+<initV>     		%initial velocity 
+0.3048     			%1ft/s
+<StopTol>   		%stopping tolerance used
+1.000e-10
+<NormTyp>  			%norm type 1 for 1-norm, 2 for 2-norm, 3 for inf-norm
+3.0
+<StopTest>			%stopping test used 1 for q-norm, 2 for h-norm 3 for q&h-norm
+1
+<SerP>      		%service pressure
+20.0
+<MinP>      		%Minimum pressure
+40.0
+<MinImproTol>
+1.0000e-4
+<end>			%end of parameter
+%--------------------------------------------------%
+[dispFlag]
+%0 no output 
+%1 print output to screen only 
+%2 print output to file only  
+%3 print output to both screen and file
+<BasicFlag>
+2
+<NetInfoFlag>
+2
+<ConvergenceFlag>
+0
+<StatFlag>
+0
+<GFflag>
+0
+<ScalingFlag>
+0
+<NodalResultflag>
+3
+<LinkResultflag>
+3
+<QitersFlag>
+0
+<HitersFlag>
+0
+<timeFlag>
+0
+<end>       		%end of dispFlag
+%--------------------------------------------------%
+[controlFlag]
+<SolverFlag>		%1 for GGA 2 for RCTM 3 for SMPA 4 for PDM
+1
+<FCPAFlag>
+0
+<end>			%end of controlFlag
+%--------------------------------------------------%
