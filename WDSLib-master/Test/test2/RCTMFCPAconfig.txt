@@ -1,0 +1,14 @@
+[InputFile]
+<directory> 		%REQUIRED INFORMATION the input file directory 
+../../WDSnetwork/
+<file>      		%REQUIRED INFORMATION the input file name
+hanoi.inp
+<end>       		%end of input file 
+%--------------------------------------------------%
+[controlFlag]
+<SolverFlag>		%1 for GGA 2 for RCTM 3 for SMPA 4 for PDM
+2
+<FCPAFlag>
+1
+<end>			%end of controlFlag
+%--------------------------------------------------%
