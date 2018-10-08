@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/1+1EA.dir/1+1EA.cc.o  -o 1+1EA libWDSLib.a lib/EPANET/libEPANET.a lib/SuiteSparse/libcxsparse.a -lm 

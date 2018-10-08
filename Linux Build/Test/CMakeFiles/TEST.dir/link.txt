@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TEST.dir/UnitTest.cc.o  -o TEST ../libWDSLib.a ../lib/EPANET/libEPANET.a ../lib/SuiteSparse/libcxsparse.a -lm 
