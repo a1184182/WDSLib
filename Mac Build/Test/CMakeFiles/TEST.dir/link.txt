@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/TEST.dir/UnitTest.cc.o  -o TEST ../libWDSLib.a ../lib/EPANET/libEPANET.a ../lib/SuiteSparse/libcxsparse.a -lm 

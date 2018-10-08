@@ -54,7 +54,6 @@ int   main(int argc, char *argv[])
  	Net *net=simulation1->L1a(result,config);
 	vector<int> p1=generateinitialpopulation(net->getNp());
 	vector<int> p2;
-	cout<<p1.size()<<endl;
 	for(int i=0;i<GTN;i++){ 
 		simulation1->setD(&p1,&ADiameter,net->getPIPE()->Diascale());
 	 	simulation1->solve(result);

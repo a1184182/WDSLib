@@ -1,0 +1,12 @@
+=====================
+|Scaling Information|
+=====================
+Nodal demand Scaling factor: 1350
+Nodal head Scaling factor: 100
+Fixed-head node elevation head Scaling factor 100
+Pipe Length Scaling factor=3500
+Pipe Diameter Scaling factor=1.016
+Pipe Roughness Scaling factor=130
+
+
+
