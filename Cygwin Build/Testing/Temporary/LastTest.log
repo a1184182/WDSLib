@@ -1,0 +1,227 @@
+Start testing: Oct 08 15:43 ACDT
+----------------------------------------------------------
+1/12 Testing: NYTP_GGA
+1/12 Test: NYTP_GGA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test1/GGAconfig.txt" "../../WDSLib-master/Test/test1/LinkResult.txt" "../../WDSLib-master/Test/test1/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"NYTP_GGA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+test1
+The continuity residual for the solution of the NYTP system using the GGA implementation in WDSLib: 3.88667e-12
+The energy residual for the solution of the NYTP system using the GGA implementation in WDSLib: 3.00648e-13
+The infinity-norm for the solution of the NYTP system using the GGA implementation in WDSLib: 3.66716e-14
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"NYTP_GGA" end time: Oct 08 15:43 ACDT
+"NYTP_GGA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: NYTP_GGA_FCPA
+2/12 Test: NYTP_GGA_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test1/GGAFCPAconfig.txt" "../../WDSLib-master/Test/test1/LinkResult.txt" "../../WDSLib-master/Test/test1/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"NYTP_GGA_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+test1
+The continuity residual for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 6.69242e-13
+The energy residual for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 1.83853e-13
+The infinity-norm for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 4.09403e-14
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"NYTP_GGA_FCPA" end time: Oct 08 15:43 ACDT
+"NYTP_GGA_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: NYTP_RCTM
+3/12 Test: NYTP_RCTM
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test1/RCTMconfig.txt" "../../WDSLib-master/Test/test1/LinkResult.txt" "../../WDSLib-master/Test/test1/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"NYTP_RCTM" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+
+The Hydraulic Sover (RCTM) satisfied the convergence test after 5 iterators
+test1
+The continuity residual for the solution of the NYTP system using the RCTM implementation in WDSLib: 6.21725e-15
+The energy residual for the solution of the NYTP system using the RCTM implementation in WDSLib: 7.79792e-08
+The infinity-norm for the solution of the NYTP system using the RCTM implementation in WDSLib: 4.46737e-11
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"NYTP_RCTM" end time: Oct 08 15:43 ACDT
+"NYTP_RCTM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: NYTP_RCTM_FCPA
+4/12 Test: NYTP_RCTM_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test1/RCTMFCPAconfig.txt" "../../WDSLib-master/Test/test1/LinkResult.txt" "../../WDSLib-master/Test/test1/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"NYTP_RCTM_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+
+The Hydraulic Sover (RCTM) satisfied the convergence test after 5 iterators
+test1
+The continuity residual for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 5.77316e-15
+The energy residual for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 7.79792e-08
+The infinity-norm for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 4.68827e-11
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"NYTP_RCTM_FCPA" end time: Oct 08 15:43 ACDT
+"NYTP_RCTM_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: hanoi_GGA
+5/12 Test: hanoi_GGA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test2/GGAconfig.txt" "../../WDSLib-master/Test/test2/LinkResult.txt" "../../WDSLib-master/Test/test2/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"hanoi_GGA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+test1
+The continuity residual for the solution of the NYTP system using the GGA implementation in WDSLib: 5.88418e-15
+The energy residual for the solution of the NYTP system using the GGA implementation in WDSLib: 3.56511e-09
+The infinity-norm for the solution of the NYTP system using the GGA implementation in WDSLib: 3.00038e-11
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"hanoi_GGA" end time: Oct 08 15:43 ACDT
+"hanoi_GGA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: hanoi_GGA_FCPA
+6/12 Test: hanoi_GGA_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test2/GGAFCPAconfig.txt" "../../WDSLib-master/Test/test2/LinkResult.txt" "../../WDSLib-master/Test/test2/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"hanoi_GGA_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+test1
+The continuity residual for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 2.17604e-14
+The energy residual for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 3.56509e-09
+The infinity-norm for the solution of the NYTP system using the GGA and FCPA implementation in WDSLib: 3.16918e-11
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"hanoi_GGA_FCPA" end time: Oct 08 15:43 ACDT
+"hanoi_GGA_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: hanoi_RCTM
+7/12 Test: hanoi_RCTM
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test2/RCTMconfig.txt" "../../WDSLib-master/Test/test2/LinkResult.txt" "../../WDSLib-master/Test/test2/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"hanoi_RCTM" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+
+The Hydraulic Sover (RCTM) satisfied the convergence test after 8 iterators
+test1
+The continuity residual for the solution of the NYTP system using the RCTM implementation in WDSLib: 5.82867e-16
+The energy residual for the solution of the NYTP system using the RCTM implementation in WDSLib: 9.42146e-10
+The infinity-norm for the solution of the NYTP system using the RCTM implementation in WDSLib: 2.47916e-12
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"hanoi_RCTM" end time: Oct 08 15:43 ACDT
+"hanoi_RCTM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: hanoi_RCTM_FCPA
+8/12 Test: hanoi_RCTM_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test2/RCTMFCPAconfig.txt" "../../WDSLib-master/Test/test2/LinkResult.txt" "../../WDSLib-master/Test/test2/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"hanoi_RCTM_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+
+The Hydraulic Sover (RCTM) satisfied the convergence test after 8 iterators
+test1
+The continuity residual for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 4.44089e-16
+The energy residual for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 9.42114e-10
+The infinity-norm for the solution of the NYTP system using the RCTM and FCPA implementation in WDSLib: 2.61855e-12
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"hanoi_RCTM_FCPA" end time: Oct 08 15:43 ACDT
+"hanoi_RCTM_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: n1_GGA
+9/12 Test: n1_GGA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test3/GGAconfig.txt" "../../WDSLib-master/Test/test3/LinkResult.txt" "../../WDSLib-master/Test/test3/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"n1_GGA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+Error: EPANET input file specified does not exist
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"n1_GGA" end time: Oct 08 15:43 ACDT
+"n1_GGA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: n1_GGA_FCPA
+10/12 Test: n1_GGA_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test3/GGAFCPAconfig.txt" "../../WDSLib-master/Test/test3/LinkResult.txt" "../../WDSLib-master/Test/test3/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"n1_GGA_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+Error: EPANET input file specified does not exist
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"n1_GGA_FCPA" end time: Oct 08 15:43 ACDT
+"n1_GGA_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: n1_RCTM
+11/12 Test: n1_RCTM
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test3/RCTMconfig.txt" "../../WDSLib-master/Test/test3/LinkResult.txt" "../../WDSLib-master/Test/test3/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"n1_RCTM" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+Error: EPANET input file specified does not exist
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"n1_RCTM" end time: Oct 08 15:43 ACDT
+"n1_RCTM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: n1_RCTM_FCPA
+12/12 Test: n1_RCTM_FCPA
+Command: "/home/a1184182/WDSLib-master/Cygwin Build/Test/TEST" "../../WDSLib-master/Test/test3/RCTMFCPAconfig.txt" "../../WDSLib-master/Test/test3/LinkResult.txt" "../../WDSLib-master/Test/test3/NodeResult.txt"
+Directory: /home/a1184182/WDSLib-master/Cygwin Build/Test
+"n1_RCTM_FCPA" start time: Oct 08 15:43 ACDT
+Output:
+----------------------------------------------------------
+Error: EPANET input file specified does not exist
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"n1_RCTM_FCPA" end time: Oct 08 15:43 ACDT
+"n1_RCTM_FCPA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 08 15:43 ACDT

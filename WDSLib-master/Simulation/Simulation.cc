@@ -377,7 +377,6 @@ void Simulation::dispResult(Result *result){
  		myfile.close();
 	}
 
-	cout<<"test1"<<endl;
 
 	if(flag->getFlagvalue("QitersFlag")==1||flag->getFlagvalue("QitersFlag")==3){
 		result->dispQiter(cout,net->getPIPE());
