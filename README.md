@@ -5,7 +5,7 @@ WDSLib is a C++ library that implements many WDS simulation methods. Currently, 
 
 ### Prerequisites
 The WDSLib source code bundles two additional packages, including:
-* SuiteSparse(Davisetal.2014)(availablefromhttp://faculty.cse.tamu.edu/davis/suitesparse.html) is a suite of sparse matrix algorithms with exceptional performance, from which the approximated minimum degree permutation (AMD) and the sparse Cholesky decomposition routines have been used; and
+* SuiteSparse(Davisetal.2014)(available from http://faculty.cse.tamu.edu/davis/suitesparse.html) is a suite of sparse matrix algorithms with exceptional performance, from which the approximated minimum degree permutation (AMD) and the sparse Cholesky decomposition routines have been used; and
 * EPANET (available from https://www.epa.gov/water-research/ epanet) part of which is used in WDSLib to parse the network pa- rameter from the EPANET input file.
 The source codes of these two additional third-party dependencies have been packaged in WDSLib.
 ### Installing
