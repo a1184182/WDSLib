@@ -11,7 +11,7 @@ The source codes of these two additional third-party dependencies have been pack
 ### Installing
 WDSLib is built by using CMake, a cross-platform, open-source build system generator, to generate makefiles for different operating systems. In this section, an installation guide for four platforms, namely Windows, Cygwin, Linux, and MacOS is presented.
 #### Windows
-A binary release of CMake and a C++ compiler, such as visual studio or MinGW, are required for installation on Windows (https://cmake.org/ download/).
+A binary release of CMake and a C++ compiler, such as visual studio or MinGW, are required for installation on Windows (https://cmake.org/download/).
 * Step 1: After installing the CMake application, input the WDSLib source code directory and the build file directory.
 * Step 2: After choosing the source file directory and the build file directory, press the configure button.
 * Step 3: After pressing the configure button, Cmake will ask the user to choose a project generator (compiler).
