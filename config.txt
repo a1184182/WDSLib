@@ -54,7 +54,7 @@ hanoi.inp
 <end>       		%end of dispFlag
 %--------------------------------------------------%
 [controlFlag]
-<SolverFlag>		%1 for GGA 2 for RCTM 3 for SMPA 4 for PDM
+<SolverFlag>		%1 for GGA 2 for RCTM
 1
 <FCPAFlag>
 0
