@@ -61,7 +61,7 @@ The setup for WDSLib as a standalone application is straightforward. The user pr
 
 ## Authors
 
-* **Mengning Qiu** , **Bradley Alexander** , **Sylvan Elhay** , **Angus R. Simpson** - *Initial work* -(https://github.com/a1184182)
+* **Mengning Qiu** , **Bradley Alexander**, **Angus R. Simpson** , **Sylvan Elhay**  - *Initial work* -(https://github.com/a1184182)
 
 
 ## License
