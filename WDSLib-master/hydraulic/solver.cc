@@ -283,7 +283,6 @@ void Solver::reverseH(Result *result){
 		vector<double> *CresI=new vector<double>(nj);
 		for(int i = 0;i<np; i++){
 			(*EresI)[i]=(*Gfinal)[i]*(*qsol)[i]-A1h[i];
-			if(abs((*EresI)[i])>1) cout<<i<<"\t"<<(*Gfinal)[i]*(*qsol)[i]<<"\t"<<-A1h[i]<<endl;
 		}		
 		for(int i=0;i<pRow->size();i++){
 			if((*SN)[(*pRow)[i]]<nj) (*CresI)[(*SN)[(*pRow)[i]]]+=(*qsol)[(*pRow)[i]];
